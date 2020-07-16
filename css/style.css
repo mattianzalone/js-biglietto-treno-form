@@ -73,6 +73,14 @@ button p {
     width: 100%;
     background-color: white;
     padding: 20px 15px;
+    visibility: hidden;
+}
+
+.bottom-biglietto-genera{
+    width: 100%;
+    background-color: white;
+    padding: 20px 15px;
+    visibility: visible;
 }
 
 .bottom-biglietto h3{
@@ -83,6 +91,7 @@ button p {
 div.biglietto{
     width: 100%;
     display: flex;
+    border-bottom: 1px solid black;
 }
 
 .left-biglietto{
@@ -101,14 +110,22 @@ div.biglietto{
 .right-biglietto{
     width: 75%;
     display: flex;
-    justify-content: center;
+
 }
 
 .right-biglietto table{
-    padding: 20px 50px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 table th{
     font-size: 22px;
+    padding-left: 20px;
+}
+
+table td {
     padding-left: 45px;
+    padding-top: 20px;
+    font-size: 20px;
 }

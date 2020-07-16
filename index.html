@@ -12,15 +12,15 @@
             <div class="header-form">
                 <div class="nome">
                     <h4>Nome Cognome</h4>
-                    <input type="text" name="" value="">
+                    <input id="nomeUtente" type="text" name="" value="">
                 </div>
                 <div class="kilometri">
                     <h4>Km da percorrere</h4>
-                    <input type="number" name="" value="">
+                    <input id="km" type="number" name="" value="">
                 </div>
                 <div class="eta">
                     <h4>Fascia d'età</h4>
-                    <select>
+                    <select id="eta">
                         <option value="0">Minorenne</option>
                         <option value="1">Maggiorenne</option>
                         <option value="2">Over 65</option>
@@ -33,11 +33,12 @@
             </div>
         </form>
         <h1>IL TUO BIGLIETTO</h1>
-        <div class="bottom-biglietto">
+        <div  id="biglietto-tuo" class="bottom-biglietto">
             <h3>DETTAGLI PASSEGGERI</h3>
             <div class="biglietto">
                 <div class="left-biglietto">
                     <h4>NOME <br> PASSEGGERO</h4>
+                    <h4 id="nome"></h4>
                 </div>
                 <div class="right-biglietto">
                     <table>
@@ -47,6 +48,12 @@
                             <th>Codice <br> CP</th>
                             <th>Costo <br> biglietto</th>
                         </tr>
+                        <tr>
+                            <td id="offerta"></td>
+                            <td id="carrozza"></td>
+                            <td id="codice-cp"></td>
+                            <td id="costo-biglietto"></td>
+                          </tr>
                     </table>
                 </div>
             </div>
