@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Biglietto treno form</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+    <div class="container">
+        <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+        <form class="biglietto" action="index.html" method="post">
+            <div class="header-form">
+                <div class="nome">
+                    <h4>Nome Cognome</h4>
+                    <input type="text" name="" value="">
+                </div>
+                <div class="kilometri">
+                    <h4>Km da percorrere</h4>
+                    <input type="number" name="" value="">
+                </div>
+                <div class="eta">
+                    <h4>Fascia d'età</h4>
+                    <select>
+                        <option value="0">Minorenne</option>
+                        <option value="1">Maggiorenne</option>
+                        <option value="2">Over 65</option>
+                    </select>
+                </div>
+            </div>
+            <div class="bottoni-form">
+                <button id="genera" type="button" name="button"><p> Genera</p></button>
+                <button id="annulla" type="button" name="button"><p>Annulla</p></button>
+            </div>
+        </form>
+        <h1>IL TUO BIGLIETTO</h1>
+        <div class="bottom-biglietto">
+            <h3>DETTAGLI PASSEGGERI</h3>
+            <div class="biglietto">
+                <div class="left-biglietto">
+                    <h4>NOME <br> PASSEGGERO</h4>
+                </div>
+                <div class="right-biglietto">
+                    <table>
+                        <tr>
+                            <th>Offerta</th>
+                            <th>Carrozza</th>
+                            <th>Codice <br> CP</th>
+                            <th>Costo <br> biglietto</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js" charset="utf-8"></script>
+    </body>
+</html>

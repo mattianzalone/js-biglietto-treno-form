@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #b91450;
+}
+
+.container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.container h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+form.biglietto{
+    background-color: white;
+    border-radius: 8px;
+}
+
+form .header-form{
+    display: flex;
+    justify-content:space-around;
+    padding: 30px 0;
+}
+
+.nome, .kilometri, .eta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form h4{
+    color: #b91450;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+form input, select{
+    border: 1px solid #b91450;
+    border-radius: 8px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.bottoni-form{
+    text-align: center;
+    padding: 20px 0 25px 0;
+}
+
+.bottoni-form button{
+    font-size: 22px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid #b91450;
+}
+
+button p {
+    color: #b91450;;
+}
+
+.bottom-biglietto{
+    width: 100%;
+    background-color: white;
+    padding: 20px 15px;
+}
+
+.bottom-biglietto h3{
+    font-size: 22px;
+    border-bottom: 1px solid black;
+}
+
+div.biglietto{
+    width: 100%;
+    display: flex;
+}
+
+.left-biglietto{
+    width: 25%;
+    height: 100%;
+    background-color: #808080;
+
+}
+
+.left-biglietto h4{
+    font-size: 22px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.right-biglietto{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+}
+
+.right-biglietto table{
+    padding: 20px 50px;
+}
+
+table th{
+    font-size: 22px;
+    padding-left: 45px;
+}
